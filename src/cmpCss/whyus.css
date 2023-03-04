@@ -1,0 +1,52 @@
+:root {
+    --mainColor: rgb(23, 23, 23);
+    --sectionColor: rgb(35, 35, 35);
+    --elementColor: #61dafb;
+}
+
+.container {
+    margin-top: 100px;
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: auto;
+    margin-bottom: 300px;
+    margin-right: auto;
+}
+
+.container .card {
+    width: 490px;
+    text-align: center;
+    background-color: var(--sectionColor);
+    color: white;
+    height: 300px;
+    border-radius: 15px;
+    margin: 20px 10px;
+    padding: 10px 20px;
+    box-shadow: -1px -1px 30px 2px rgba(0, 0, 0, 0.357);
+}
+
+.container .card h2 {
+    color: white;
+    font-size: 1.8em;
+    font-weight: bold;
+    margin: 20px;
+    text-align: left;
+}
+
+.container .card p {
+    font-size: 1.2em;
+    color: rgb(174, 174, 174);
+    font-weight: 200;
+}
+
+h2 .Fa-icont {
+    margin-right: 10px;
+    font-size: 1.4em;
+    color: var(--elementColor);
+}
+
+.carefully {
+    white-space: nowrap;
+}

@@ -1,0 +1,111 @@
+:root {
+    --mainColor: rgb(23, 23, 23);
+    --sectionColor: rgb(35, 35, 35);
+    --elementColor: #61dafb;
+}
+
+
+.container-cont {
+    padding: 200px;
+    padding-top: 190px;
+}
+
+
+.title-cont {
+    color: white;
+    font-size: 4em;
+    text-align: center;
+    font-weight: bold;
+    display: block;
+}
+
+.left-cont {
+    display: inline-block;
+    width: 50%;
+    height: 50%;
+    padding-left: 40px;
+}
+
+.left-cont h1 {
+    color: white;
+    font-size: 4em;
+    font-weight: bold;
+}
+
+.left-cont p {
+    margin-top: 20px;
+    color: white;
+    font-size: 1.1em;
+    width: 600px;
+    line-height: 1.7;
+    margin-bottom: 30px;
+}
+
+.left-cont .span-contact{
+    color: var(--elementColor);
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.left-cont a {
+    font-weight: bold;
+    color: var(--sectionColor);
+    background: var(--elementColor);
+    border-radius: 15px;
+    padding: 15px;
+    border: 2px solid transparent;
+    transition: 0.5s;
+    box-shadow: 1px -2px 30px 2px var(--elementColor);
+}
+
+.left-cont a:hover {
+    color: white;
+    background-color: transparent;
+    box-shadow: 1px -2px 30px 2px white;
+    border: 2px solid white;
+}
+
+.right-cont {
+    width: 50%;
+    height: 50%;
+    text-align: center;
+}
+
+.right-cont h1 {
+    color: var(--elementColor);
+    font-weight: bold;
+    font-size: 4em;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+
+.right-cont a {
+    color: white;
+    font-weight: bold;
+    font-size: 1.8em;
+    transition: 0.4s;
+    background-color: var(--sectionColor);
+    border-radius: 15px;
+    padding: 20px;
+    position: relative;
+}
+
+.right-cont a:hover {
+    color: var(--elementColor);
+}
+
+
+.cont-container {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+}
+
+.span-icn {
+    color: var(--elementColor);
+    position: absolute;
+    left: -60px;
+    bottom: 15px;
+    font-size: 1.4em;
+}

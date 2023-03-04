@@ -1,0 +1,330 @@
+.App {
+  text-align: center;
+}
+
+
+* {
+  font-family: sans-serif;;
+}
+
+:root {
+  --mainColor: rgb(23, 23, 23);
+  --sectionColor: rgb(35, 35, 35);
+  --elementColor: #61dafb;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+
+nav {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+header {
+  border-bottom: 4px solid var(--elementColor);
+  height: 60px;
+  width: 100%;
+  transition: 0.3s;
+  background-color: var(--mainColor);
+  z-index: 100;
+}
+
+#section {
+  background-image: url(../src/assets/rath.jpg);
+  width: 100%;
+  height: 115vh;
+  background-size: cover;
+  display: flex;
+  justify-content: space-between;
+}
+
+#section .side-left {
+  padding-top: 230px;
+  color: white;
+  padding-left: 50px;
+}
+
+#section .side-right {
+  text-align: center;
+  padding-top: 230px;
+  color: white;
+}
+
+#section .side-right h2 {
+  margin-left: 150px;
+}
+
+#section .side-right h3 {
+  margin-left: 150px;
+}
+
+#section  h1 {
+  color: white;
+  font-weight: bold;
+  font-size: 3.3em;
+  width: 700px;
+  margin-bottom: 30px;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+#section  h2 {
+  color: rgb(208, 208, 208);
+  font-weight:100;
+  font-size: 1.2em;
+  width: 400px;
+  margin-bottom: 10px;
+  margin-bottom: 30px;
+}
+
+#section h3 {
+  color: rgb(214, 214, 214);
+  font-size: 1em;
+  width: 400px;
+  margin-bottom: 40px;
+}
+
+#section  button {
+  background-color: var(--elementColor);
+  color: var(--sectionColor);
+  font-weight: bold;
+  padding: 10px;
+  border-radius: 15px;
+  font-size: 1.1em;
+  border: 1px solid transparent;
+  transition: 0.5s;
+  box-shadow: 2px 2px 2px 1px white;
+  box-shadow: 1px -2px 30px 2px var(--elementColor);
+}
+
+#section  button:hover {
+  border: 1px solid white;
+  background-color: transparent;
+  color: white;
+  box-shadow: -1px -1px 30px 2px white;
+}
+.section2 {
+  width: 100%;
+  height: 170vh;
+  background-size: cover;
+  background-color: var(--mainColor);
+}
+
+#job-section {
+  background-image: url(../src/assets/dota2-1676581201930-3698.jpg);
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+}
+
+.line {
+  width: 100%;
+  height: 200px;
+  background-color: orangered;
+}
+
+.list .link-hr {
+  text-align: center;
+  color: white;
+}
+
+.list a {
+  text-align: center;
+  color: white;
+}
+
+.list .link-hr:nth-child(1) {
+  width: 70px;
+}
+
+.list .link-hr:nth-child(2) {
+  width: 75px;
+}
+
+.list .link-hr:nth-child(3) {
+  width: 130px;
+}
+
+.list .link-hr:nth-child(4) {
+  width: 100px;
+}
+
+.list .link-hr:nth-child(5) {
+  width: 75px;
+}
+.list .link-hr:nth-child(6) {
+  width: 75px;
+}
+
+.list .link-hr, 
+.list a {
+  font-size: 1.2em;
+  transition: 0.4s;
+  border-bottom: 2px solid transparent;
+  padding-bottom: 4px;
+  margin: 0px 10px;
+}
+
+
+.list .link-hr:hover {
+  color: #61dafb;
+  border-bottom: 2px solid var(--elementColor);
+}
+
+.list a:hover {
+  color: #61dafb;
+  border-bottom: 2px solid var(--elementColor);
+}
+
+.h-why {
+  font-style: italic;
+}
+
+.h-why span {
+  color: var(--elementColor);
+}
+
+.empty ,
+.empty2{
+  width: 100%;
+  height: 100%;
+  background-color: var(--mainColor);
+}
+
+.emy {
+  color: white;
+  background-color: blue;
+}
+
+
+
+
+.terms-container h1  {
+  font-weight: bold;
+  color: white;
+  padding: 20px 0;
+  font-size: 2em;
+}
+
+.terms-container h2 {
+  font-weight: bold;
+  color: white;
+  padding: 20px 0;
+  font-size: 1.4em;
+}
+
+
+.terms-container h3 {
+  font-weight: bold;
+  color: white;
+  padding: 20px 0;
+  font-size: 1.3em;
+}
+
+.terms-container p {
+  color: rgb(126, 126, 126);
+  padding: 10px 0;
+}
+
+.terms-container {
+  padding-top: 100px;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.terms-container a {
+  color: white;
+  font-size: 1.2em;
+  font-weight: bold;
+  display: block;
+  padding: 15px 0;
+}
+
+
+
+.FormGroup {
+  background-color: var(--sectionColor);
+}
+
+/* .form {
+  height: 30px;
+  width: 300px;
+  background-color: var(--sectionColor);
+} */
+
+
+.banner-home {
+  width: 100%;
+  /* background-color: blue; */
+  height: 300px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url(../src/assets/banner.png);
+}
+
+.banner-home h1 {
+  color: var(--elementColor);
+  text-align: center;
+  font-size: 8em;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding-top: 60px;
+  font-style: italic;
+  background: linear-gradient(95deg, #00d4ff, #064ebb);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  
+}
+
+.stps-home {
+  height: 1000px;
+  width: 100%;
+  margin-top: 100px;
+}
+
+.stps-home img {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.section2 {
+  height: 340vh;
+}

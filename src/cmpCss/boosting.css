@@ -1,0 +1,561 @@
+.empty1 {
+    background-color: var(--mainColor);
+    width: 100%;
+    height: 290vh;
+    padding-top: 200px;
+}
+
+
+.container-boost {
+    display: flex;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+}
+
+.container-boost .sides-container{
+    margin-top: 120px;
+    width: 40%;
+}
+
+.container-boost .sides-container .left-container,
+.container-boost .sides-container .right-container {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    width: 100%;
+    background-color: rgb(18 18 18);
+    margin: 20px 0px;
+}
+
+
+.container-boost .sides-container .left-container::after {
+    content: "";
+    height: 300px;
+    position: absolute;
+    left: 350px;
+    top: 60px;
+    width: 2px;
+    background-color: rgb(95, 95, 95);
+}
+.container-boost .sides-container .right-container::after {
+    content: "";
+    height: 300px;
+    position: absolute;
+    left: 350px;
+    top: 60px;
+    width: 2px;
+    background-color: rgb(95, 95, 95);
+}
+
+.container-boost .left-boost {
+    padding: 10px;
+    margin: 10px;
+    border-radius: 2px;
+    width: 60%;
+    height: 300px;
+}
+
+
+.container-boost .right-boost {
+    padding: 10px;
+    margin: 10px;
+    border-radius: 2px;
+    width: 60%;
+    height: 400px;
+}
+
+.container-boost .right-div,
+.container-boost .left-div {
+    padding: 10px;
+    margin: 15px;
+    border-radius: 15px;
+    width: 40%;
+    height: 400px;
+    padding-top: 30px;
+}
+
+
+.container-boost .right-container button,
+.container-boost .left-container button,
+.middle-side button{
+    width: 80px;
+    height: 80px;
+    border-radius: 15px;
+    padding: 10px;
+    margin: 10px;
+    background-color: var(--sectionColor);
+    transition: 0.4s;
+    position: relative;
+    text-align: center;
+}
+
+
+
+.container-boost button span {
+    color: rgba(91, 84, 84, 0.09);
+    font-weight: bold;
+    font-size: 1.1em;
+    position: absolute;
+    z-index: 6;
+    height: 100%;
+    width: 100%;
+    left: -20px;
+}
+
+
+
+.header-boost {
+    color: var(--elementColor);
+    font-size: 2.5em;
+    font-weight: bold;
+
+}
+
+
+
+
+.container-boost button:nth-child(2):hover {
+    background-color: rgba(81, 81, 81, 0.59);
+    box-shadow: 1px -2px 30px 12px rgba(81, 81, 81, 0.59);
+}
+
+
+.container-boost button:nth-child(3):hover {
+    box-shadow: 1px -2px 30px 12px rgba(58, 32, 3, 0.59);
+    background-color: rgba(58, 32, 3, 0.59);
+}
+
+.container-boost button:nth-child(4):hover {
+    box-shadow: 1px -2px 30px 12px rgba(67, 84, 87, 0.59);
+    background-color: rgba(67, 84, 87, 0.59);
+}
+
+.container-boost button:nth-child(5):hover {
+    box-shadow: 1px -2px 30px 12px rgba(139, 89, 2, 0.59);
+    background-color: rgba(139, 89, 2, 0.59);
+}
+
+.container-boost button:nth-child(6):hover {
+    box-shadow: 1px -2px 30px 12px rgba(14, 112, 128, 0.59);
+    background-color: rgba(14, 112, 128, 0.59);
+}
+
+.container-boost button:nth-child(7):hover {
+    box-shadow: 1px -2px 30px 12px rgba(2, 196, 255, 0.59);
+    background-color: rgba(0, 191, 255, 0.59);
+}
+.container-boost button:nth-child(8):hover {
+    box-shadow: 1px -2px 30px 12px rgba(64, 0, 240, 0.59);
+    background-color: rgba(64, 0, 240, 0.59);
+}
+.container-boost button:nth-child(9):hover {
+    background-color: rgba(81, 81, 81, 0.59);
+}
+
+
+
+
+
+
+
+/* button #one-span {
+    bottom: 0px;
+    left: 25px;
+}
+button #two-span {
+    bottom: 0px;
+    left: 25px;
+}
+button #three-span {
+    bottom: 0px;
+    left: 23px;
+}
+button #four-span {
+    bottom: 0px;
+    left: 25px;
+}
+button #five-span {
+    bottom: 0px;
+    left: 7px;
+}
+ button #six-span {
+    bottom: 0px;
+    left: 8px;
+}
+button #seven-span {
+    bottom: 0px;
+    left: 15px;
+} */
+
+.container-boost button span {
+    color: rgba(91, 84, 84, 0.09);
+    font-weight: bold;
+    font-size: 0.8em;
+    position: absolute;
+    z-index: 6;
+    height: 100%;
+    width: 100%;
+    left: 0px;
+    bottom: 0;
+}
+
+
+.server-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 800px;
+    margin-bottom: 50px;
+    position: relative;
+    margin-top: 20px;
+}
+
+.server-container div {
+    background-color: var(--sectionColor);
+    color: white;
+    font-size: 1.1em;
+    font-weight: bold;
+    text-align: center;
+    margin: 10px;
+    padding: 30px 20px 25px 20px;
+    border-radius: 15px;
+    width: 240px;
+    cursor: pointer;
+}
+
+
+div.clid {
+    background-color: #0044a4;
+}
+.server-container h1 {
+    font-weight: bold;
+    color: white;
+    font-size: 1.5em;
+    text-align: center;
+    width: 100%;
+}
+
+.righ-divs,
+.lef-divs {
+    color: white;
+}
+
+
+
+.Boosted-Header {
+    color: var(--elementColor);
+    font-weight: bold;
+    text-align: center;
+    width: 100%;
+    font-size: 5em;
+    margin-bottom: 50px;
+}
+
+.err-header {
+    width: 100%;
+    background-color: red;
+    color: white;
+    padding: 10px;
+    font-size: 1.5em;
+    font-weight: bold;
+    text-align: center;
+    height: 50px;
+    display: none;
+}
+
+
+
+.right-side {
+    margin-top: 140px;
+    height: 500px;
+    width: 40%;
+    
+}
+
+
+.total-container {
+    background-color: var(--sectionColor);
+    height: 400px;
+    width: 80%;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 150px;
+}
+
+.total-two {
+    background-color: var(--sectionColor);
+    height: 400px;
+    width: 80%;
+    margin-left: auto;
+    margin-top: 50px;
+    margin-right: auto;
+}
+
+.total-two h1 {
+    color: white;
+    font-weight: bold;
+    font-size: 4em;
+    text-align: center;
+}
+
+.header-bost,
+.header-bst {
+    color: white;
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.header-bst {
+    color: var(--elementColor);
+    text-decoration: line-through;
+}
+
+
+.totals {
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.totalss .StripeCheckout span  {
+    background-color: var(--elementColor) !important;
+    width: 100%;
+    height: 50px;
+    font-size: 1.4em;
+}
+
+
+.StripeCheckout {
+    background-color: blue !important;
+}
+
+.brns   {
+    width: 200px;
+    color: white;
+    width: 100%;
+    background-color: var(--elementColor) !important;
+    font-size: 1.5em;
+    height: 50px;
+    display: block;
+    position: absolute;
+    bottom: 0;
+}
+
+.totals {
+    background-color: var(--sectionColor);
+    transition: 0.8s;
+    position: fixed;
+    height: 100vh;
+    width: 500px;
+    right: 0;
+    top: 0;
+    margin-right: -100px;
+    z-index: 111;
+    
+}
+
+.conts {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+}
+
+.conts .pay-Header {
+    height: 50%;
+    display: block;
+    width: 100%;
+}
+
+.conts .tts {
+    height: 50%;
+    display: block;
+    width: 100%;
+    text-align: center;
+    padding-top: 200px;
+    padding-right: 80px;
+}
+
+
+.header-bosto {
+    color: white;
+    text-align: center;
+    font-size: 1.3em;
+
+}
+
+
+
+.righ-divs,
+.lef-divs {
+    width: 100%;
+    flex-wrap: nowrap;
+}
+
+
+.container-boost button:nth-child(8) {
+    width: 280px;
+    padding-left: 110px;
+
+}
+
+.container-boost button:nth-child(8) img {
+    width: 80px;
+    margin-left: -10px;
+    margin-top: -10px;
+}
+
+.middle-side {
+    width: 17%;
+    display: flex;
+    flex-direction: column;
+    align-items: space-between;
+    padding: 10px;
+    position: relative;
+    height: 800px;
+    margin-top: 200px;
+}
+
+.middle-side button {
+    color: white;
+    background-color: var(--sectionColor);
+    font-size: 50px;
+    width: 100%;
+    height: 250px;
+    text-transform: uppercase;
+}
+
+.middle-side button:nth-child(2) {
+    margin-top: 220px;
+}
+
+.spand {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    text-align: center;
+    padding: 10px;
+    top: -20px;
+    font-weight: bold;
+    font-size: 1.2em;
+    left: -35px;
+    background-color: white;
+    color: var(--elementColor);
+    border: 1px solid var(--elementColor);
+}
+
+
+.server-sel {
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: var(--sectionColor);
+    width: 300px;
+    outline: transparent;
+}
+
+.server-container h1 {
+    margin-left: -250px;
+    margin-bottom: 20px;
+}
+
+.server-sel option {
+    color: white;
+    padding: 50px;
+    height: 50px;
+    outline: transparent;
+    margin-bottom: 14px;
+}
+
+
+/* .container-faq {
+    background-color: var(--mainColor);
+    width: 90%;
+    margin-left: auto;
+    padding-left: 500px;
+    margin-right: auto;
+} */
+
+
+.cont-faq {
+    margin-top: -100px;
+}
+
+.crd1s {
+    font-size: 0.9em;
+    text-align: left;
+}
+
+.card {
+    transition: 0.5s;
+}
+
+.card:hover {
+    background-color: rgba(81, 81, 81, 0.59);
+    box-shadow: 1px -2px 30px 12px rgba(81, 81, 81, 0.59);
+}
+
+.container-boost button:hover {
+    background-color: var(--elementColor);
+}
+
+.middle-side .dvs:hover {
+    background-color: var(--elementColor);
+}
+
+.middle-side button:nth-child(2):hover {
+    background-color: var(--elementColor);
+    box-shadow: none;
+}
+
+.header-bt {
+    color: white;
+    text-align: center;
+    font-size: 1.6em;
+    font-weight: bold;
+}
+
+
+.header-fq {
+    color: white;
+    text-align: center;
+    font-size: 2em;
+}
+
+
+.empty2 {
+    width: 100%;
+    height: 100vh;
+    padding-top: 150px;
+}
+
+.empty2 h1 {
+    font-size: 5em;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+}
+
+.empty2 p {
+    color: white;
+    font-size: 1.4em;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+.empty2 a {
+    color: var(--mainColor);
+    padding: 15px;
+    background-color: var(--elementColor);
+    border-radius: 15px;
+    font-weight: bold;
+    margin-left: 870px;
+
+}

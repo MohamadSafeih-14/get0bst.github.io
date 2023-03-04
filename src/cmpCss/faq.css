@@ -1,0 +1,83 @@
+:root {
+    --mainColor: rgb(23, 23, 23);
+    --sectionColor: rgb(35, 35, 35);
+    --elementColor: #61dafb;
+}
+
+ 
+.li-faq{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 30px 20px 20px;
+    width: 100%;
+    height: 50px;
+    vertical-align: center;
+    color:white;
+    cursor: pointer;
+    background-color: var(--sectionColor);
+    text-align: center;
+    margin: 20px 0px;
+}
+
+.li-faq span {
+    margin-top: -15px;
+    font-size: 2em;
+    text-align: right;
+}
+
+#bos,
+#charg,
+#play {
+    display: none;
+    color: white;
+    font-size: 1.1em;
+    line-height: 1.7;
+    transition: 0.4s;
+    border-bottom: 3px solid var(--elementColor);
+    padding-bottom: 5px;
+}
+
+.container-faq {
+    background-color: var(--mainColor);
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.side-2 {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header-faq {
+    margin-bottom: 100px;
+    color: var(--elementColor);
+    font-size: 6em;
+    font-weight: bold;
+    text-align: center;
+    font-style: italic;
+    width: 100%;
+}
+
+
+
+
+.header-faq span {
+    color: white;
+}
+
+
+.empty {
+    padding: 150px;
+}
+
+.container-faq .crd-faq {
+    border-bottom: 2px solid rgb(160, 160, 160);
+}
+
+.hdr-f {
+    font-style: normal;
+    font-size: 1.4em;
+}
+
